@@ -31,3 +31,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+kafka:
+  topic:
+    name: job-topic
+    event:
+      type: CreateJob
